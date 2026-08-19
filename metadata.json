@@ -1,0 +1,6 @@
+{
+  "name": "Sarthi Shield",
+  "description": "AI-IoT Fair-Wage & Safety Ecosystem for Gig Delivery Partners with Dynamic Difficulty Index (DDI), Rating Immunity, and Doorstep Voice Safety.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

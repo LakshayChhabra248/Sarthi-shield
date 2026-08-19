@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft Drop Shadow behind the Emblem -->
+    <path
+        android:pathData="M54,28 C68,28 78,33 78,47 C78,63 64,74 54,82 C44,74 30,63 30,47 C30,33 40,28 54,28 Z"
+        android:fillColor="#40000000" />
+
+    <!-- Outer Shield Halo / Border Gradient -->
+    <path
+        android:pathData="M54,26 C70,26 80,31.5 80,47 C80,64.5 65,76.5 54,84 C43,76.5 28,64.5 28,47 C28,31.5 38,26 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="26"
+                android:endX="80"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FF00E5FF" android:offset="0.0" />
+                <item android:color="#FF7C4DFF" android:offset="0.55" />
+                <item android:color="#FF00E676" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Shield Body (Sleek Dark Glass) -->
+    <path
+        android:pathData="M54,29 C67.5,29 76.5,33.5 76.5,47 C76.5,62 63.5,73 54,79.5 C44.5,73 31.5,62 31.5,47 C31.5,33.5 40.5,29 54,29 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="29"
+                android:endX="54"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#FF1A1C2E" android:offset="0.0" />
+                <item android:color="#FF0E101C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Speed Route & Mobility Wing Lines inside Shield -->
+    <!-- Left Highway Trace -->
+    <path
+        android:pathData="M52,38 L43,58 L48,58 L46,68 L60,49 L54,49 L58,38 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="43"
+                android:startY="38"
+                android:endX="60"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#FF00E5FF" android:offset="0.0" />
+                <item android:color="#FFB388FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Dynamic AI Radar Arcs at the top of Shield -->
+    <path
+        android:pathData="M43,36 C46.5,34 50,33 54,33 C58,33 61.5,34 65,36"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FF00E5FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+        
+    <path
+        android:pathData="M46.5,40 C49,38.5 51.5,37.8 54,37.8 C56.5,37.8 59,38.5 61.5,40"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FF7C4DFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Luminous AI Sensor Core Orb -->
+    <path
+        android:pathData="M54,34m-2.2,0a2.2,2.2 0,1 1,4.4 0a2.2,2.2 0,1 1,-4.4 0"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- Bottom Shield Anchor Accent (Fair Wage & Immunity Tick Accent) -->
+    <path
+        android:pathData="M48,72 L54,76 L60,72"
+        android:strokeWidth="2"
+        android:strokeColor="#FF00E676"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>
